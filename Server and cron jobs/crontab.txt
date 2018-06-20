@@ -1,0 +1,10 @@
+#crontab -e
+
+#Zhixiao Zhang
+#June 19, 2018
+
+
+0 8 * * * python3 weather_forecast.py
+
+0 */6 * * * python3 TechCrunch_Briefing.py
+
